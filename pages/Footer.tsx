@@ -12,7 +12,7 @@ export default function Footer()
                 <main className='fundo'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-md-3'>
+                            <div className='col-md-4'>
                                 <a href='#'>
                                 <picture>
                                 <img src='/logo.png' className='icon' alt={""}/>
@@ -20,28 +20,9 @@ export default function Footer()
                                 </a>
                             </div>
 
-                            <div className='col-md-3'>
-                                <p className='title'>
-                                   
-                                </p>
-                                <a href='#Sobre' className='txt'>
-                                    <p className='txt-info'>
-                                        Sobre
-                                    </p>
-                                </a>
-                                <a href='#Sobre' className='txt'>
-                                    <p className='txt-info'>
-                                        Contato
-                                    </p>
-                                </a>
-                                <a href='#Sobre' className='txt'>
-                                    <p className='txt-info'>
-                                        Soluções
-                                    </p>
-                                </a>
-                            </div>
+                            
 
-                            <div className='col-md-3'>
+                            <div className='col-md-4'>
                                 <p className='title'>
                                    
                                 </p>
@@ -56,7 +37,7 @@ export default function Footer()
                                 </p>
                             </div>
 
-                            <div className='col-md-3'>
+                            <div className='col-md-4'>
                                 <p className='title'>
                                     Redes Sociais
                                 </p>
