@@ -51,9 +51,7 @@ export default function Footer()
                                     <img src='/linkdin.png' className='icon-rede'alt={""}/>
                                     </picture>
                                 </a>
-                               {/*  <a href=''>
-                                    <img src='youtube.png' className='icon-rede'/>
-                                </a> */}
+                              
                                 <a href='https://www.facebook.com/trinindad.bomfim' target='blank'>
                                     <picture>
                                     <img src='/face.png' className='icon-rede'alt={""}/>
