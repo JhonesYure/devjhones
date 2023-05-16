@@ -14,7 +14,9 @@ export default function Footer()
                         <div className='row'>
                             <div className='col-md-3'>
                                 <a href='#'>
-                                <img src='/logo.png' className='icon'/>
+                                <picture>
+                                <img src='/logo.png' className='icon' alt={""}/>
+                                </picture>
                                 </a>
                             </div>
 
@@ -59,16 +61,22 @@ export default function Footer()
                                     Redes Sociais
                                 </p>
                                 <a href='https://www.instagram.com/jhonesyure/' target='blank'>
-                                    <img src='/insta.png' className='icon-rede'/>
+                                    <picture>
+                                    <img src='/insta.png' className='icon-rede'alt={""}/>
+                                    </picture>
                                 </a>
                                 <a href='https://www.linkedin.com/in/devjhones/' target='blank'>
-                                    <img src='/linkdin.png' className='icon-rede'/>
+                                    <picture>
+                                    <img src='/linkdin.png' className='icon-rede'alt={""}/>
+                                    </picture>
                                 </a>
                                {/*  <a href=''>
                                     <img src='youtube.png' className='icon-rede'/>
                                 </a> */}
                                 <a href='https://www.facebook.com/trinindad.bomfim' target='blank'>
-                                    <img src='/face.png' className='icon-rede'/>
+                                    <picture>
+                                    <img src='/face.png' className='icon-rede'alt={""}/>
+                                    </picture>
                                 </a>
                                 
                             </div>

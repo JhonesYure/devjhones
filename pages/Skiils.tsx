@@ -26,7 +26,9 @@ function Skills() {
                   <Tab eventKey="HTML" title={<span style={{ color: '#1E1E1E', fontWeight: 'bold', fontSize: 25, }}>Home</span>}>
                     <div className="info">
                     <div className="col-md-6">
-                        <img src="/html 1.png" className="imageTab"/>
+                        <picture>
+                        <img src="/html 1.png" className="imageTab" alt={""}/>
+                        </picture>
                     </div>
                     <div className="col-md-6">
                         <p className="txt">
@@ -38,7 +40,9 @@ function Skills() {
                   <Tab eventKey="CSharp C#" title={<span style={{ color: '#1E1E1E', fontWeight: 'bold', fontSize: 25, }}>CSharp C#</span>} >
                     <div className="info">
                     <div className="col-md-6">
-                        <img src="/csharp 1.png" className="imageTab"/>
+                        <picture>
+                        <img src="/csharp 1.png" className="imageTab" alt={""}/>
+                        </picture>
                     </div>
                     <div className="col-md-6">
                         <p className="txt">
@@ -50,7 +54,9 @@ function Skills() {
                   <Tab eventKey="JavaScript" title={<span style={{ color: '#1E1E1E', fontWeight: 'bold', fontSize: 25, }}>JavaScript</span>}>
                     <div className="info">
                     <div className="col-md-6">
-                        <img src="/javascript 1.png" className="imageTab"/>
+                       <picture>
+                       <img src="/javascript 1.png" className="imageTab" alt={""}/>
+                       </picture>
                     </div>
                     <div className="col-md-6">
                         <p className="txt">
@@ -63,7 +69,9 @@ function Skills() {
                   <Tab eventKey="ReactJS" title={<span style={{ color: '#1E1E1E', fontWeight: 'bold', fontSize: 25, }}>ReactJS & Native</span>}>
                     <div className="info">
                     <div className="col-md-6">
-                        <img src="/react.png" className="imageTab"/>
+                        <picture>
+                        <img src="/react.png" className="imageTab" alt={""}/>
+                        </picture>
                     </div>
                     <div className="col-md-6">
                         <p className="txt">
@@ -77,7 +85,9 @@ function Skills() {
                   <Tab eventKey="PHP" title={<span style={{ color: '#1E1E1E', fontWeight: 'bold', fontSize: 25, }}>PHP</span>}>
                     <div className="info">
                     <div className="col-md-6">
-                        <img src="/php.png" className="imageTab"/>
+                        <picture>
+                        <img src="/php.png" className="imageTab" alt={""}/>
+                        </picture>
                     </div>
                     <div className="col-md-6">
                         <p className="txt">
@@ -90,7 +100,9 @@ function Skills() {
                   <Tab eventKey="Banco de Dados" title={<span style={{ color: '#1E1E1E', fontWeight: 'bold', fontSize: 25, }}>Banco de Dados</span>}>
                     <div className="info">
                     <div className="col-md-6">
-                        <img src="/sql.png" className="imageTab"/>
+                        <picture>
+                        <img src="/sql.png" className="imageTab" alt={""}/>
+                        </picture>
                     </div>
                     <div className="col-md-6">
                         <p className="txt">
@@ -109,7 +121,9 @@ function Skills() {
                 </h1>
               </div>
               <div className="col-md-6">
-                <img src="/robot.png" className="robot"/>
+               <picture>
+               <img src="/robot.png" className="robot" alt={""}/>
+               </picture>
               </div>
             </div>
           </div>

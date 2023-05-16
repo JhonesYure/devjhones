@@ -10,7 +10,9 @@ function Header(){
         <Navbar expand="lg"  style={{backgroundColor: '#343434', position: 'fixed', top:0, left: 0,padding:0, margin:0,  }} fixed='top'>
       <Container>
         <Navbar.Brand href="#" className="col-6">
-            <img src='/logo.png' style={{width:200, color:'white'}}/>
+            <picture>
+            <img src='/logo.png' style={{width:200, color:'white'}} alt={""}/>
+            </picture>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

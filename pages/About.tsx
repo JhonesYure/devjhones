@@ -23,12 +23,14 @@ function About(){
                                 Ao longo da minha jornada, tive a oportunidade de participar de diversos projetos desafiadores. Isso me proporcionou a chance de aprimorar minhas habilidades em áreas como desenvolvimento web, criação de APIs, integração de banco de dados e implementação de recursos de segurança da informação.
                                 Sou apaixonado por encontrar soluções criativas e eficientes para problemas complexos. Tenho uma abordagem analítica e focada na resolução de desafios. Além disso, valorizo a qualidade do código e a entrega de projetos no prazo.
                                 Estou entusiasmado com a possibilidade de enfrentar novos desafios e contribuir para o sucesso deste projeto. Tenho uma mentalidade de aprendizado contínuo e estou sempre aberto a novas oportunidades de crescimento profissional.
-                                Agradeço a todos pela atenção e pela oportunidade de me apresentar. Estou ansioso para colaborar com vocês e alcançarmos resultados excepcionais juntos. Muito obrigado!"
+                                Agradeço a todos pela atenção e pela oportunidade de me apresentar. Estou ansioso para colaborar com vocês e alcançarmos resultados excepcionais juntos. Muito obrigado!
                                 Espero que essa versão mais detalhada atenda às suas expectativas!
                             </p>
                         </div>
                         <div className="col-md-6 col-sm-12">
-                            <img src="/about-image.png" className="image-about"/>
+                            <picture>
+                            <img src="/about-image.png" className="image-about" alt={""}/>
+                            </picture>
                         </div>
                     </div>
                 </div>

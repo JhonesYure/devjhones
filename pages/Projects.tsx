@@ -63,7 +63,9 @@ function  Projects()
                             </Card>
                         </div>
                         <div className="col-md-12 box">
-                            <img src="/github.png" className="github"/>
+                            <picture>
+                            <img src="/github.png" className="github" alt={""}/>
+                            </picture>
                             <a href="" className="txt-git">
                                 Repositório GutHub
                             </a>

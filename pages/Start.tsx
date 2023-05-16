@@ -1,5 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Image from 'next/image'
 
 function Start(){
     return(
@@ -16,7 +17,9 @@ function Start(){
                             </h1>
                         </div>
                         <div className="col-md-6 col-sm-12">
-                            <img src="/jhones.jfif" className="photo"/>
+                            <picture>
+                            <img src="/jhones.jfif" className="photo" alt={""} />
+                            </picture>
                         </div>
                     </div>
                 </div>
